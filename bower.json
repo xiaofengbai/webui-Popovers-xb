@@ -1,13 +1,12 @@
 {
-  "name": "webui-popover",
-  "version": "1.2.15",
+  "name": "webui-popover-xb",
+  "version": "0.1.0",
   "authors": [
-    "sandywalker <sanddywalker@gmail.com>"
+    "xiaofengbai <byf20222@163.com>"
   ],
-  "description": "webui popover",
+  "description": "webui-popover-xb",
   "keywords": [
-    "jquery",
-    "plugins"
+    "webui-popover-xb"
   ],
   "license": "MIT",
   "private": false,
@@ -22,8 +21,10 @@
     "dist/jquery.webui-popover.css",
     "dist/jquery.webui-popover.js"
   ],
-  "dependencies": {
-      "jquery": ">=1.7.0"
-  },
-  "homepage":"https://github.com/sandywalker/webui-popover"
+  "dependencies": {},
+  "homepage": "https://github.com/xiaofengbai/webui-Popovers-xb",
+  "devDependencies": {
+    "webui-popover-xb": "webui-popover-xb#^0.1.0",
+    "webui-popover": "webui-popover-xb#^0.1.0"
+  }
 }

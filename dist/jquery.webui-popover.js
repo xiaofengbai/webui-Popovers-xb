@@ -774,13 +774,7 @@
                 for (var i = 0; i < _srcElements.length; i++) {
                     var pop = getPopFromElement(_srcElements[i]);
                     if (pop && pop._opened) {
-                        var offset = pop.getTarget().offset();
-                        var popX1 = offset.left;
-                        var popY1 = offset.top;
-                        var popX2 = offset.left + pop.getTarget().width();
-                        var popY2 = offset.top + pop.getTarget().height();
-                        var pt = pointerEventToXY(e);
-                        var inPop = pt.x >= popX1 && pt.x <= popX2 && pt.y >= popY1 && pt.y <= popY2;
+                        var inPop = $(e.target).closest('#' + pop.id).length > 0;
                         if (inPop) {
                             canHide = false;
                             break;

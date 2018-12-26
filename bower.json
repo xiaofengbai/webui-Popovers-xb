@@ -1,6 +1,6 @@
 {
   "name": "webui-popover-xb",
-  "version": "0.1.0",
+  "version": "0.1.02",
   "authors": [
     "xiaofengbai <byf20222@163.com>"
   ],
@@ -24,7 +24,7 @@
   "dependencies": {},
   "homepage": "https://github.com/xiaofengbai/webui-Popovers-xb",
   "devDependencies": {
-    "webui-popover-xb": "webui-popover-xb#^0.1.0",
-    "webui-popover": "webui-popover-xb#^0.1.0"
+    "webui-popover-xb": "webui-popover-xb#^0.1.02",
+    "webui-popover": "webui-popover-xb#^0.1.02"
   }
 }
